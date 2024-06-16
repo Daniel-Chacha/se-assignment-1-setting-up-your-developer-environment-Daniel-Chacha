@@ -49,69 +49,69 @@ Step 9. Visual studio code window opens successfully .
 
 
 3. VERSION CONTROL SETUP
-    Step 1. Download the latest git for windows at https://gitforwindows.org/ 
-    Step 2. After successfully starting the installer, you should see the Git setup wizard screen. Click      the Next and Finish prompts to complete the installation.
-    Step 3. Create a GitHub Account-- Visit https://github.com  and sign up for a new account .
-    Step 4. Open a git bash  and run the following commands to configure your Git username and email . 
-            $ git config --global user.name "Daniel  Chacha"
-            $ git config --global user.email "danmwita355@gmail.com"
-    Step 5. While still at the git bash, navigate to your project folder using “cd Desktop/myfolder” or create one using      “mkdir project_name” then “ cd project_name”
-    Step 6. Initialize ,commit and push the repository to github using:
-            git init
-            git add .
-            git commit -m “My first project”
-            git push
+Step 1. Download the latest git for windows at https://gitforwindows.org/ 
+Step 2. After successfully starting the installer, you should see the Git setup wizard screen. Click the Next button and Finish prompts to complete the installation.
+Step 3. Create a GitHub Account-- Visit https://github.com  and sign up for a new account .
+Step 4. Open a git bash  and run the following commands to configure your Git username and email . 
+$ git config --global user.name "Daniel  Chacha"
+$ git config --global user.email "danmwita355@gmail.com"
+Step 5. While still at the git bash, navigate to your project folder using “cd Desktop/myfolder” or create one using      “mkdir project_name” then “ cd project_name”
+Step 6. Initialize ,commit and push the repository to github using:
+git init
+git add .
+git commit -m “My first project”
+git push
 
-            ![alt text](image-9.png)
+![alt text](image-9.png)
 
 4. PYTHON INSTALLATION
-    a) Visit the official python website https://www.python.org/ to download the latest version of python.
-      ![alt text](image-10.png)
+a) Visit the official python website https://www.python.org/ to download the latest version of python.
+![alt text](image-10.png)
 
 
-    b) Select the “Windows installer” option and click on the “Download” button. Once the download is complete, run the installer.heck the boxes “Use admin privileges when installing py.exe” and “Add python.exe to PATH” to save the trouble of manual adjustments in the environment variable later.
-      ![alt text](image-11.png)
+b) Select the “Windows installer” option and click on the “Download” button. Once the download is complete, run the installer.heck the boxes “Use admin privileges when installing py.exe” and “Add python.exe to PATH” to save the trouble of manual adjustments in the environment variable later.
+![alt text](image-11.png)
 
 
-    c) Follow the on-screen instructions during the preceding stages.Once installation is complete you should see the a message like this:
-    d) Verify that the installation is complete using python -v   on the command prompt.
-   ![alt text](image-12.png)
-   
+c) Follow the on-screen instructions during the preceding stages.Once installation is complete you should see the a message like this:
+d) Verify that the installation is complete using python -v   on the command prompt.
+![alt text](image-12.png)
+
 
 5. INSTALLING PACKAGE MANAGERS
 
-    • On the command prompt, check whether  pip is installed by executing:
-      pip –version   since it comes by default after downloading python.
+• On the command prompt, check whether  pip is installed by executing:
+pip –version   since it comes by default after downloading python.
 
 6. CONFIGURE MYSQL
-    • Visit https://dev.mysql.com/downloads/installer/ and click on the first download button.
-     ![alt text](image-13.png)
+• Visit https://dev.mysql.com/downloads/installer/ and click on the first download button.
+![alt text](image-13.png)
 
 
-    • On the mysql Homepage, click on the “No thanks, just start my download” link to proceed mysql downloading.
-     ![alt text](image-14.png)
+• On the mysql Homepage, click on the “No thanks, just start my download” link to proceed mysql downloading.
+![alt text](image-14.png)
 
-    • After mysql downloading MySQL.exe file , go to your down	loads folder , find the file and double click to run the installer.
-    ![alt text](image-15.png)
+• After mysql downloading MySQL.exe file , go to your down	loads folder , find the file and double click to run the installer.
+![alt text](image-15.png)
 
-    • The installer will instruct you to choose the setup type. For most users , the “Developer Default” is suitable. Click “Next” to proceed.
+• The installer will instruct you to choose the setup type. For most users , the “Developer Default” is suitable. Click “Next” to proceed.
 
-    • You will be prompted to install typical MySQL software .The installer can auto-resolve some of issues, but not in this case.
-    ![alt text](image-16.png)
-
-
-    • In the download section click, “Execute” to start downloading the content you selected.Click “Next”
-    ![alt text](image-17.png)
+• You will be prompted to install typical MySQL software .The installer can auto-resolve some of issues, but not in this case.
+![alt text](image-16.png)
 
 
-    • Proceed to 	“Product configuration” > “Type and Networking” > “ Authentication Method” pages by clicking the “Next” button.
-    • Create  a password for the MySQL root user.Ensure it is strong and memorable.Click Next to proceed.
-    • Connect to server: Enter the root password , click “Check” .If it says “Connection Succeed” you have successfully connected to the server.
-    • Once installation is complete , click “Finish” .
-    ![alt text](image-18.png)
+• In the download section click, “Execute” to start downloading the content you selected.Click “Next”
+![alt text](image-17.png)
 
 
-    • To verify installation, open MySQL  command line client  at your start menu  and login using the root user credentials you set during installation.
+• Proceed to 	“Product configuration” > “Type and Networking” > “ Authentication Method” pages by clicking the “Next” button.
+• Create  a password for the MySQL root user.Ensure it is strong and memorable.Click Next to proceed.
+• Connect to server: Enter the root password , click “Check” .If it says “Connection Succeed” you have successfully connected to the server.
+• Once installation is complete , click “Finish” .
+![alt text](image-18.png)
+
+
+• To verify installation, open MySQL  command line client  at your start menu  and login using the root user credentials you set during installation.
 
 
 8.EXTENSIONS AND PLUGINS
