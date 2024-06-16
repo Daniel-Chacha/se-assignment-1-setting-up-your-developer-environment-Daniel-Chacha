@@ -68,12 +68,15 @@ Step 9. Visual studio code window opens successfully .
     a) Visit the official python website https://www.python.org/ to download the latest version of python.
       ![alt text](image-10.png)
 
+
     b) Select the “Windows installer” option and click on the “Download” button. Once the download is complete, run the installer.heck the boxes “Use admin privileges when installing py.exe” and “Add python.exe to PATH” to save the trouble of manual adjustments in the environment variable later.
       ![alt text](image-11.png)
+
 
     c) Follow the on-screen instructions during the preceding stages.Once installation is complete you should see the a message like this:
     d) Verify that the installation is complete using python -v   on the command prompt.
    ![alt text](image-12.png)
+   
 
 5. INSTALLING PACKAGE MANAGERS
 
@@ -84,22 +87,29 @@ Step 9. Visual studio code window opens successfully .
     • Visit https://dev.mysql.com/downloads/installer/ and click on the first download button.
      ![alt text](image-13.png)
 
+
     • On the mysql Homepage, click on the “No thanks, just start my download” link to proceed mysql downloading.
      ![alt text](image-14.png)
 
     • After mysql downloading MySQL.exe file , go to your down	loads folder , find the file and double click to run the installer.
     ![alt text](image-15.png)
+
     • The installer will instruct you to choose the setup type. For most users , the “Developer Default” is suitable. Click “Next” to proceed.
 
     • You will be prompted to install typical MySQL software .The installer can auto-resolve some of issues, but not in this case.
     ![alt text](image-16.png)
+
+
     • In the download section click, “Execute” to start downloading the content you selected.Click “Next”
     ![alt text](image-17.png)
+
+
     • Proceed to 	“Product configuration” > “Type and Networking” > “ Authentication Method” pages by clicking the “Next” button.
     • Create  a password for the MySQL root user.Ensure it is strong and memorable.Click Next to proceed.
     • Connect to server: Enter the root password , click “Check” .If it says “Connection Succeed” you have successfully connected to the server.
     • Once installation is complete , click “Finish” .
     ![alt text](image-18.png)
+
 
     • To verify installation, open MySQL  command line client  at your start menu  and login using the root user credentials you set during installation.
 
@@ -143,13 +153,6 @@ CHALLENGES FACED DURING SETUP AND STRATEGIES DEVELOPED TO OVERCOME THEM
 #Submission:
 Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
 
-#Evaluation Criteria:**
-- Completeness and accuracy of setup documentation.
-- Effectiveness of version control implementation.
-- Appropriateness of tools selected for the project requirements.
-- Clarity of reflection on challenges and solutions encountered.
-- Adherence to submission guidelines and deadlines.
 
-Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
 
 
